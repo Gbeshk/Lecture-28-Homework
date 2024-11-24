@@ -55,7 +55,8 @@ body {
   margin-left: 14px;
 }
 .input {
-  color: #888;
+  outline: none;
+  color: black;
   font-family: Inter;
   font-size: 16px;
   font-weight: 400;
@@ -63,4 +64,50 @@ body {
   background: #ebeff2;
   height: 49px;
   margin-left: 10px;
+}
+.input::placeholder {
+  color: #888;
+}
+.tasksdiv {
+  width: 373px;
+  height: 44px;
+  margin-top: 2px;
+  margin-left: 29px;
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+  width: 373px;
+}
+.spacediv {
+  margin-top: 0px;
+  height: 12px;
+}
+.task {
+  color: #0d0d0d;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+}
+.textdiv {
+  display: flex;
+  flex-direction: column;
+}
+.datetext {
+  color: #888;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+}
+.iconsdiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+}
+.taskebi {
+  height: 330px;
+  overflow-x: auto;
+}
+.picdiv {
+  position: relative;
 }
